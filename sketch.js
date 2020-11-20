@@ -3,7 +3,7 @@ let sketch;
 
 function setup() {
   //angleMode(RADIANS);
-  sketch = createCanvas(600, 600);
+  sketch = createCanvas(600, windowHeight);
   sketch.parent("p5");
   /*g = map(mouseX, 0, 400, 90, 255);
   g = map(mouseY, 0, 400, 255, 90);
