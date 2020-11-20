@@ -1,21 +1,22 @@
-/*Dan Shiffman, the CodingTrain
-var g = 0;*/
+
+let sketch;
 
 function setup() {
   //angleMode(RADIANS);
-  createCanvas(600, 600);
+  sketch = createCanvas(600, 600);
+  sketch.parent("p5");
   /*g = map(mouseX, 0, 400, 90, 255);
   g = map(mouseY, 0, 400, 255, 90);
 
   background(0, g, 0);*/
   // background(245, 245, 219);
-  background(0);
+  background(255);
 }
 
 function draw() {
 
   //figuras
-  stroke(255,255,255, 100);
+  stroke(0,0,0, 90);
   strokeWeight(1);
   //fill(245, 245, 219, 75);
  noFill();
@@ -50,7 +51,7 @@ function mousePressed() {
  g = map(mouseY, 0, 400, 255, 90);*/
 
   //background(245, 245, 219);
-  background(0);
+  background(255);
 
   //background(0, g, 0);
 }
