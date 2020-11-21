@@ -40,14 +40,15 @@ p{color:rgb(0, 0, 0);
 footer{
     background-color:rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    padding: 0.5em; /* EM square */
-    margin-top:16em; 
-     
+    padding: 0.3em; /* EM square */
+    margin-top:0em;
+    font-size: 12px;
 }
 
 footer a{
     color: rgb(255, 255, 255);
     font-weight: bolder;
     text-decoration: underline;
-    cursor: crosshair; 
+    cursor: crosshair;
+    font-size: 12px; 
 }
